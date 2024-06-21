@@ -8,149 +8,149 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SampleMvcApp
 build_property.RootNamespace = SampleMvcApp
-build_property.ProjectDir = C:\Users\FERNANDO\Desktop\Proyectos_SoftwareSeguro\quickstart\sample\
+build_property.ProjectDir = C:\Users\FERNANDO\Desktop\Proyectos_SoftwareSeguro\TransporteExpressEC\quickstart\sample\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\FERNANDO\Desktop\Proyectos_SoftwareSeguro\quickstart\sample
+build_property.MSBuildProjectDirectory = C:\Users\FERNANDO\Desktop\Proyectos_SoftwareSeguro\TransporteExpressEC\quickstart\sample
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Account/AccessDenied.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Account/Claims.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Account/Claims.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDbGFpbXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Account/Profile.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Account/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Account/_ValidationScriptsPartial.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Account/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Account/_ViewStart.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Account/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Clientes/Create.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Clientes/Delete.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Clientes/Details.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Clientes/Edit.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Clientes/Index.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Conductors/Create.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Conductors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZHVjdG9yc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Conductors/Delete.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Conductors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZHVjdG9yc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Conductors/Details.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Conductors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZHVjdG9yc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Conductors/Edit.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Conductors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZHVjdG9yc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Conductors/Index.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Conductors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZHVjdG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Home/Index.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Home/Privacy.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Rutas/Create.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Rutas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Rutas/Delete.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Rutas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0YXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Rutas/Details.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Rutas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0YXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Rutas/Edit.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Rutas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Rutas/Index.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Rutas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Shared/Error.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Shared/_CookieConsentPartial.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Shared/_CookieConsentPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Shared/_Layout.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Transportes/Create.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Transportes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Transportes/Delete.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Transportes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Transportes/Details.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Transportes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Transportes/Edit.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Transportes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Transportes/Index.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Transportes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Viajes/Create.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Viajes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlhamVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/Viajes/Index.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/Viajes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlhamVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/_ViewImports.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/quickstart/sample/Views/_ViewStart.cshtml]
+[C:/Users/FERNANDO/Desktop/Proyectos_SoftwareSeguro/TransporteExpressEC/quickstart/sample/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

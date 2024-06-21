@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FERNANDO\\Desktop\\Proyectos_SoftwareSeguro\\quickstart\\sample\\SampleMvcApp.csproj": {}
+    "C:\\Users\\FERNANDO\\Desktop\\Proyectos_SoftwareSeguro\\TransporteExpressEC\\quickstart\\sample\\SampleMvcApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FERNANDO\\Desktop\\Proyectos_SoftwareSeguro\\quickstart\\sample\\SampleMvcApp.csproj": {
+    "C:\\Users\\FERNANDO\\Desktop\\Proyectos_SoftwareSeguro\\TransporteExpressEC\\quickstart\\sample\\SampleMvcApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FERNANDO\\Desktop\\Proyectos_SoftwareSeguro\\quickstart\\sample\\SampleMvcApp.csproj",
+        "projectUniqueName": "C:\\Users\\FERNANDO\\Desktop\\Proyectos_SoftwareSeguro\\TransporteExpressEC\\quickstart\\sample\\SampleMvcApp.csproj",
         "projectName": "SampleMvcApp",
-        "projectPath": "C:\\Users\\FERNANDO\\Desktop\\Proyectos_SoftwareSeguro\\quickstart\\sample\\SampleMvcApp.csproj",
+        "projectPath": "C:\\Users\\FERNANDO\\Desktop\\Proyectos_SoftwareSeguro\\TransporteExpressEC\\quickstart\\sample\\SampleMvcApp.csproj",
         "packagesPath": "C:\\Users\\FERNANDO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FERNANDO\\Desktop\\Proyectos_SoftwareSeguro\\quickstart\\sample\\obj\\",
+        "outputPath": "C:\\Users\\FERNANDO\\Desktop\\Proyectos_SoftwareSeguro\\TransporteExpressEC\\quickstart\\sample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
