@@ -1,0 +1,50 @@
+﻿@model SampleMvcApp.ViewModels.Ruta
+
+@{
+    ViewData["Title"] = "Eliminar Rutas";
+}
+
+<h1>Eliminar</h1>
+
+<h3>Esta seguro que desea eliminar?</h3>
+<style>
+    body {
+        background-color: ivory;
+    }
+</style>
+<div>
+    <h4>Ruta</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaEmisionLicencia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FechaEmisionLicencia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaVencimientoLicencia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FechaVencimientoLicencia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PuntoLlegada)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PuntoLlegada)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdRuta" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Indice">Volver a la lista</a>
+    </form>
+</div>

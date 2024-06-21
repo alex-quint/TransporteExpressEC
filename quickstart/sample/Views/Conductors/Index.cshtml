@@ -1,0 +1,59 @@
+﻿@model IEnumerable<SampleMvcApp.ViewModels.Conductor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cedula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumeroTelefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaNacimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaEmisionLicencia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaVencimientoLicencia)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cedula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroTelefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaNacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaEmisionLicencia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaVencimientoLicencia)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdConductor">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdConductor">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdConductor">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
