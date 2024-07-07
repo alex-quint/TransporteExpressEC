@@ -22,8 +22,7 @@ namespace SampleMvcApp.Controllers
             webHostEnvironment = webHost;
         }
 
-        [Authorize(Policy = "Admin")]
-        [Authorize(Policy = "User")]
+        [Authorize(Roles = "admin,user")]
         public IActionResult Index()
         {
             List<Viaje> viajes = _context.Viaje.ToList();
@@ -31,7 +30,7 @@ namespace SampleMvcApp.Controllers
         }
 
         [HttpGet]
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             Viaje viaje = new Viaje();
@@ -39,7 +38,7 @@ namespace SampleMvcApp.Controllers
         }
 
         [HttpPost]
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public ActionResult Create(Viaje viaje)
         {
             string uniqueFileName = UploadedFile(viaje);

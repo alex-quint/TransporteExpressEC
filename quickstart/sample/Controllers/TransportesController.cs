@@ -21,16 +21,14 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Transportes
-        [Authorize(Policy = "Admin")]
-        [Authorize(Policy = "User")]
+        [Authorize(Roles = "admin,user")]
         public async Task<IActionResult> Index()
         {
               return View(await _context.Transporte.ToListAsync());
         }
 
         // GET: Transportes/Details/5
-        [Authorize(Policy = "Admin")]
-        [Authorize(Policy = "User")]
+        [Authorize(Roles = "admin,user")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Transporte == null)
@@ -49,7 +47,7 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Transportes/Create
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             return View();
@@ -60,7 +58,7 @@ namespace SampleMvcApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create([Bind("IdTransporte,Tipo,Modelo,Matricula,Capacidad")] Transporte transporte)
         {
             if (ModelState.IsValid)
@@ -73,7 +71,7 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Transportes/Edit/5
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Transporte == null)
@@ -94,7 +92,7 @@ namespace SampleMvcApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id, [Bind("IdTransporte,Tipo,Modelo,Matricula,Capacidad")] Transporte transporte)
         {
             if (id != transporte.IdTransporte)
@@ -126,7 +124,7 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Transportes/Delete/5
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Transporte == null)
@@ -147,7 +145,7 @@ namespace SampleMvcApp.Controllers
         // POST: Transportes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Transporte == null)

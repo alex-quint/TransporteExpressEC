@@ -22,16 +22,14 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Clientes
-        [Authorize(Policy = "Admin")]
-        [Authorize(Policy = "User")]
+        [Authorize(Roles = "admin,user")]
         public async Task<IActionResult> Index()
         {
               return View(await _context.Cliente.ToListAsync());
         }
 
         // GET: Clientes/Details/5
-        [Authorize(Policy = "Admin")]
-        [Authorize(Policy = "User")]
+        [Authorize(Roles = "admin,user")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Cliente == null)
@@ -61,7 +59,7 @@ namespace SampleMvcApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create([Bind("IdCliente,Nombre,Apellido,Cedula,Telefono")] Cliente cliente)
         {
             if (ModelState.IsValid)
@@ -75,7 +73,7 @@ namespace SampleMvcApp.Controllers
 
         // GET: Clientes/Edit/5
         /*[Authorize(Policy = "AdminPolicy")]*/
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Cliente == null)
@@ -96,7 +94,7 @@ namespace SampleMvcApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id, [Bind("IdCliente,Nombre,Apellido,Cedula,Telefono")] Cliente cliente)
         {
             if (id != cliente.IdCliente)
@@ -128,7 +126,7 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Clientes/Delete/5
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Cliente == null)
@@ -149,7 +147,7 @@ namespace SampleMvcApp.Controllers
         // POST: Clientes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Policy = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Cliente == null)
