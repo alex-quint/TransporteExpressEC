@@ -7,6 +7,8 @@ using SampleMvcApp.ViewModels;
 using System.Linq;
 using System.Security.Claims;
 using Auth0.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
+using System;
 
 namespace SampleMvcApp.Controllers
 {
@@ -35,13 +37,16 @@ namespace SampleMvcApp.Controllers
         }
 
         [Authorize]
-        public IActionResult Profile()
+        public async Task<IActionResult> Profile()
         {
+
+            var accessToken = await HttpContext.GetTokenAsync("access_token");
+
             return View(new UserProfileViewModel()
             {
                 Name = User.Identity.Name,
                 EmailAddress = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value,
-                ProfileImage = User.Claims.FirstOrDefault(c => c.Type == "picture")?.Value
+                ProfileImage = User.Claims.FirstOrDefault(c => c.Type == "picture")?.Value,
             });
         }
 

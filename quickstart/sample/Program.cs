@@ -9,6 +9,7 @@ using System.Net;
 using Microsoft.IdentityModel.Logging;
 using SampleMvcApp.Data;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,14 +23,15 @@ builder.Services.AddAuth0WebAppAuthentication(options =>
 {
     options.Domain = builder.Configuration["Auth0:Domain"];
     options.ClientId = builder.Configuration["Auth0:ClientId"];
-});
+    options.ClientSecret = builder.Configuration["Auth0:ClientSecret"];
+})
+    .WithAccessToken(options =>
+    {
+        options.Audience = builder.Configuration["Auth0:Audience"];
+        //options.UseRefreshTokens = true;
+    });
 
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("RequireAuthenticatedUser", policy => policy.RequireAuthenticatedUser());
-});
 
-// Configure the HTTP request pipeline.
 builder.Services.ConfigureSameSiteNoneCookies();
 var app = builder.Build();
 

@@ -27,6 +27,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
                         </li>
                         -->
+
                         <a class="nav-item nav-link text-dark bg-primary my-2" asp-area="" asp-controller="Rutas" asp-action="Index">Administrar Rutas</a>
                         
                         <a class="nav-item nav-link text-dark bg-primary my-2" asp-area="" asp-controller="Transportes" asp-action="Index">Administrar Transportes</a>
@@ -42,7 +43,7 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <a class="nav-item nav-link bg-primary my-2" asp-controller="Account" asp-action="Profile">Hello @User.Identity.Name!</a>
-                            <a class="nav-item nav-link bg-primary my-2" id="qsLogoutBtn" asp-controller="Account" asp-action="Logout">Logout</a>
+                            <a class="nav-item nav-link bg-success ml-3 my-2" id="qsLogoutBtn" asp-controller="Account" asp-action="Logout">Logout</a>
                         }
                         else
                         {

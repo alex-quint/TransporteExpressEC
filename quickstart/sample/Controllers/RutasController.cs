@@ -21,16 +21,14 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Rutas
-        /*[Authorize(Policy = "AdminPolicy")]
-        [Authorize(Policy = "UserPolicy")]*/
+        [Authorize(Roles = "admin,user")]
         public async Task<IActionResult> Index()
         {
               return View(await _context.Ruta.ToListAsync());
         }
 
         // GET: Rutas/Details/5
-        /*[Authorize(Policy = "AdminPolicy")]
-        [Authorize(Policy = "UserPolicy")]*/
+        [Authorize(Roles = "admin,user")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Ruta == null)
@@ -49,7 +47,7 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Rutas/Create
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             return View();
@@ -60,7 +58,7 @@ namespace SampleMvcApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create([Bind("IdRuta,FechaEmisionLicencia,FechaVencimientoLicencia,PuntoLlegada,Precio")] Ruta ruta)
         {
             if (ModelState.IsValid)
@@ -73,7 +71,7 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Rutas/Edit/5
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Ruta == null)
@@ -94,7 +92,7 @@ namespace SampleMvcApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        /*Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id, [Bind("IdRuta,FechaEmisionLicencia,FechaVencimientoLicencia,PuntoLlegada,Precio")] Ruta ruta)
         {
             if (id != ruta.IdRuta)
@@ -126,7 +124,7 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Rutas/Delete/5
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Ruta == null)
@@ -147,7 +145,7 @@ namespace SampleMvcApp.Controllers
         // POST: Rutas/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Ruta == null)

@@ -22,16 +22,16 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Conductors
-        /*[Authorize(Policy = "AdminPolicy")]
-        [Authorize(Policy = "UserPolicy")]*/
+        [Authorize(Policy = "Admin")]
+        [Authorize(Policy = "User")]
         public async Task<IActionResult> Index()
         {
               return View(await _context.Conductor.ToListAsync());
         }
 
         // GET: Conductors/Details/5
-        /*[Authorize(Policy = "AdminPolicy")]
-        [Authorize(Policy = "UserPolicy")]*/
+        [Authorize(Policy = "Admin")]
+        [Authorize(Policy = "User")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Conductor == null)
@@ -50,7 +50,7 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Conductors/Create
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Policy = "Admin")]
         public IActionResult Create()
         {
             return View();
@@ -61,7 +61,7 @@ namespace SampleMvcApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Create([Bind("IdConductor,Cedula,NumeroTelefono,FechaNacimiento,FechaEmisionLicencia,FechaVencimientoLicencia")] Conductor conductor)
         {
             if (ModelState.IsValid)
@@ -74,7 +74,7 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Conductors/Edit/5
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Conductor == null)
@@ -95,7 +95,7 @@ namespace SampleMvcApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("IdConductor,Cedula,NumeroTelefono,FechaNacimiento,FechaEmisionLicencia,FechaVencimientoLicencia")] Conductor conductor)
         {
             if (id != conductor.IdConductor)
@@ -127,7 +127,7 @@ namespace SampleMvcApp.Controllers
         }
 
         // GET: Conductors/Delete/5
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Conductor == null)
@@ -148,7 +148,7 @@ namespace SampleMvcApp.Controllers
         // POST: Conductors/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        /*[Authorize(Policy = "AdminPolicy")]*/
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Conductor == null)
